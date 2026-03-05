@@ -86,7 +86,9 @@ Result Page
 ![Result](./screenshots/quiz-feedback.png)
 
 🌐 Live Demo
-🚀 Live Application: 
+
+🚀 Live Application:
+
 https://concept-check-smart-quizz-applicati.vercel.app/
 
 🖥️ Full Project: Deployed on Vercel
@@ -94,12 +96,8 @@ https://concept-check-smart-quizz-applicati.vercel.app/
 
 ## 📝 Contributing
 
--Fork the repository
-
--Create a feature branch (git checkout -b feature/AmazingFeature)
-
--Commit your changes (git commit -m 'Add some AmazingFeature')
-
--Push to the branch (git push origin feature/AmazingFeature)
-
--Open a Pull Request
++ Fork the repository
++ Create a feature branch (git checkout -b feature/AmazingFeature)
++ Commit your changes (git commit -m 'Add some AmazingFeature')
++ Push to the branch (git push origin feature/AmazingFeature)
++ Open a Pull Request
