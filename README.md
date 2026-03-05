@@ -74,13 +74,22 @@ The app will run on http://localhost:3000
 ## 📸 Screenshots
 
 Home Page
+
 ![Home](./screenshots/home.png)
 
 Quiz Page
+
 ![Quiz](./screenshots/quiz-start.png)
 
 Result Page
+
 ![Result](./screenshots/quiz-feedback.png)
+
+🌐 Live Demo
+🚀 Live Application: 
+https://concept-check-smart-quizz-applicati.vercel.app/
+
+🖥️ Full Project: Deployed on Vercel
 
 
 ## 📝 Contributing
