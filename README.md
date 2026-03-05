@@ -1,16 +1,91 @@
-# React + Vite
+# 🚀 ConceptCheck  
+## 🧠 Smart Quiz Application  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### ConceptCheck is a React-based quiz application that allows users to select topics, take quizzes, and get instant results.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔥 **Project Overview**  
+- React application for interactive quizzes across multiple topics (JavaScript, React, HTML, CSS).  
+- Users enter their name and select a topic to start the quiz.  
+- Each quiz question has a 10-second timer and multiple-choice answers.  
+- Instant feedback with total score, correct, and wrong answers displayed on the Result page.  
+- Fully frontend-based with state management using React hooks (`useState`, `useEffect`).  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🧩 **Key Features**  
 
-## Expanding the ESLint configuration
+📝 **Quiz Functionality**  
+- Start quiz by selecting a topic and entering player name.  
+- Navigate through questions with Next button.  
+- Timer counts down from 10 seconds per question.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📊 **Quiz Feedback**  
+- Result page shows player name, total questions, correct answers, and wrong answers.  
+
+⚡ **Interactive UI**  
+- Responsive design with visually appealing cards and buttons.  
+- Hover and active animations for better user experience.  
+
+---
+
+🛠 **Tech Stack**  
+
+| Category   | Technologies Used                     |
+|------------|--------------------------------------|
+| Frontend   | React.js, JavaScript (ES6+), HTML5, CSS3 |
+
+---
+
+📁 **Folder Structure**  
+
+ConceptCheck/  
+│  
+├── src/  
+│   ├── components/          # Home, Quiz, Result components  
+│   ├── data/                # Questions JSON data  
+│   ├── App.jsx              # Main app component  
+│   └── index.js             # React entry point  
+│  
+└── README.md  
+
+---
+
+⚙️ **Setup Instructions**  
+
+1️⃣ **Clone the Repository**  
+```bash
+git clone https://github.com/Padma-darsi/conceptCheck-Smart-quizz-application.git
+cd conceptCheck-Smart-quizz-application
+```
+2️⃣ **Install Dependencies**
+```bash
+npm install
+```
+
+3️⃣ **Start the App**
+```bash
+npm start
+```
+The app will run on http://localhost:3000
+ by default.
+
+## 📸 Screenshots
+
+Home Page
+Quiz Page
+Result Page
+
+
+## 📝 Contributing
+
+-Fork the repository
+
+-Create a feature branch (git checkout -b feature/AmazingFeature)
+
+-Commit your changes (git commit -m 'Add some AmazingFeature')
+
+-Push to the branch (git push origin feature/AmazingFeature)
+
+-Open a Pull Request
